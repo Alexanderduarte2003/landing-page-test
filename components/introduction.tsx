@@ -8,7 +8,7 @@ const Introduction = () => {
         <div className="z-20 w-full bg-darkBg/60">
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 gap-5">
                 <div className="flex justify-center mr-2">  {/* Añadido margen a la derecha */}
-                    <Image src="/home-4.png" priority width="670" height="400" alt="Avatar" className="max-w-full h-auto" />
+                    <Image src="/home-4.png" priority width="550" height="400" alt="Avatar" className="max-w-full h-auto" />
                 </div>
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
