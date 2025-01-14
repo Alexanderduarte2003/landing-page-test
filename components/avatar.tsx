@@ -3,7 +3,8 @@
 
 import Image from "next/image";
 
-import  MotionTransition  from "./transition-component";
+import { MotionTransition } from "./transition-component";
+
 
 export function Avatar() {
     return (

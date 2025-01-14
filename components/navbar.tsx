@@ -3,7 +3,8 @@
 import { itemsNavbar } from "@/data";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import  MotionTransition  from "./transition-component";
+import { MotionTransition } from "./transition-component";
+
 
 
 
