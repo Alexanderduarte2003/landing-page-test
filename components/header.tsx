@@ -1,8 +1,8 @@
+"use client"
 
-import Link from "next/link";
-import  MotionTransition  from "./transition-component";
 import { socialNetworks } from "@/data";
-
+import Link from "next/link";
+import { MotionTransition } from "./transition-component";
 
 const Header = () => {
     return (
@@ -11,8 +11,8 @@ const Header = () => {
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
-                            Julyous
-                            <span className="text-secondary">Alexander</span>
+                            Tarre
+                            <span className="text-secondary">Dev</span>
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-7">
@@ -30,9 +30,7 @@ const Header = () => {
                 </div>
             </header>
         </MotionTransition>
-
-
-      );
+    );
 }
- 
+
 export default Header;
